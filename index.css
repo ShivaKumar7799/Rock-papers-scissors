@@ -1,0 +1,39 @@
+#gameResult{
+        display: flex;
+        justify-content: space-around;
+}
+#count, #loser{
+        background-color: papayawhip;
+        padding: 10px;
+        border-radius: 10px;
+}
+#result{
+        display: flex;
+        justify-content: center;
+}
+#selector{
+        display: flex;
+        justify-content: center;
+}
+#buttonContainer{
+        display: flex;
+        justify-content: space-around;
+        margin: 20px 0px;
+}
+body{
+        background-color: cyan;
+}
+button{
+        padding: 8px;
+        border-radius: 10px;
+        border: none;
+        background-color: bisque;
+        color: black;
+}
+
+button:hover{
+        background-color: salmon;
+        color: black;
+        transition: 1s;
+        transform: scale(1.2);
+}
