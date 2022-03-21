@@ -57,13 +57,13 @@ function scissor(){
 
         } else if("rock" == computer[randomNum]){
                 lose++;
-                document.getElementById('loser').innerHTML = "You :" + lose;
-                result.innerHTML = "You Win";
+                document.getElementById('loser').innerHTML = "Computer :" + lose;
+                result.innerHTML = "You Lose";
                 selector.innerHTML = "you selected scissor computer selected " + computer[randomNum];
         } else{
                 win++;
-                document.getElementById('count').innerHTML = "Computer :" + win;
-                result.innerHTML = "You Lose"
+                document.getElementById('count').innerHTML = "You :" + win;
+                result.innerHTML = "You Win"
                 selector.innerHTML = "you selected scissor computer selected " + computer[randomNum];
         }
 }
