@@ -11,18 +11,18 @@ function rock(){
         
         if(rock == computer[randomNum]){
                 result.innerHTML = "Match is Drawn";
-                selector.innerHTML = "you selected rock computer selected " + computer[randomNum];
+                selector.innerHTML = "you selected  rock and computer selected " + computer[randomNum];
 
         } else if("scissor" == computer[randomNum]){
                 win++;
                 document.getElementById('count').innerHTML = "You :" + win;
                 result.innerHTML = "You Win";
-                selector.innerHTML = "you selected rock computer selected " + computer[randomNum];
+                selector.innerHTML = "you selected rock  and computer selected " + computer[randomNum];
         } else{
                 lose++;
                 document.getElementById('loser').innerHTML = "Computer :" + lose;
                 result.innerHTML = "You Lose"
-                selector.innerHTML = "you selected rock computer selected " + computer[randomNum];
+                selector.innerHTML = "you selected rock  and computer selected " + computer[randomNum];
         }
 }
 function paper(){
@@ -32,18 +32,18 @@ function paper(){
         
         if(paper == computer[randomNum]){
                 document.getElementById('result').innerHTML = "Match is Drawn";
-                selector.innerHTML = "you selected paper computer selected " + computer[randomNum];
+                selector.innerHTML = "you selected paper  and computer selected " + computer[randomNum];
 
         } else if("rock" == computer[randomNum]){
                 win++;
                 document.getElementById('count').innerHTML = "You :" + win;
                 result.innerHTML = "You Win";
-                selector.innerHTML = "you selected paper computer selected " + computer[randomNum];
+                selector.innerHTML = "you selected paper  and computer selected " + computer[randomNum];
         } else{
                 lose++;
                 document.getElementById('loser').innerHTML = "Computer :" + lose;
                 result.innerHTML = "You Lose"
-                selector.innerHTML = "you selected paper computer selected " + computer[randomNum];
+                selector.innerHTML = "you selected paper and computer selected " + computer[randomNum];
         }
 }
 function scissor(){
@@ -53,17 +53,17 @@ function scissor(){
         
         if(scissor == computer[randomNum]){
                 document.getElementById('result').innerHTML = "Match is Drawn";
-                selector.innerHTML = "you selected scissor computer selected " + computer[randomNum];
+                selector.innerHTML = "you selected scissor and computer selected " + computer[randomNum];
 
         } else if("rock" == computer[randomNum]){
                 lose++;
                 document.getElementById('loser').innerHTML = "Computer :" + lose;
                 result.innerHTML = "You Lose";
-                selector.innerHTML = "you selected scissor computer selected " + computer[randomNum];
+                selector.innerHTML = "you selected scissor and computer selected " + computer[randomNum];
         } else{
                 win++;
                 document.getElementById('count').innerHTML = "You :" + win;
                 result.innerHTML = "You Win"
-                selector.innerHTML = "you selected scissor computer selected " + computer[randomNum];
+                selector.innerHTML = "you selected scissor and computer selected " + computer[randomNum];
         }
 }

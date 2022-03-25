@@ -1,6 +1,14 @@
+
+h1{
+        color: yellow;
+        text-align: center;
+        margin-bottom: 60px;
+}
 #gameResult{
         display: flex;
         justify-content: space-around;
+        font-weight: 600;
+        font-size: 20px;
 }
 #count, #loser{
         background-color: papayawhip;
@@ -21,19 +29,39 @@
         margin: 20px 0px;
 }
 body{
-        background-color: cyan;
+        background-color: rebeccapurple;
+        color: rebeccapurple ;
 }
 button{
         padding: 8px;
         border-radius: 10px;
         border: none;
-        background-color: bisque;
-        color: black;
+        background-color: rebeccapurple;
+        color: yellow;
+}
+button i{
+        font-size: 30px;
+        opacity: 1;
+}
+i{
+        color: yellow;
+        font-size: 30px;
+        opacity: 0.9;
+}
+button:hover{
+        background-color: rebeccapurple;
+        color: yellow;
+        transition: 0.5s;
+        transform: scale(1.5);
+}
+#result{
+        color: palegreen;
+        font-size: 25px;
+        font-weight: 600;
+
 }
 
-button:hover{
-        background-color: salmon;
-        color: black;
-        transition: 1s;
-        transform: scale(1.2);
+#selector{
+        color: cyan;
+        font-size: 20px;
 }
